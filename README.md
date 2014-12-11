@@ -2,4 +2,7 @@
 the-mean-exchange
 =================
 
-Where MEANies get JOBS
+Where MEANies get JOBSies :)
+
+App that sets up training paths and tests based on MEAN stack (full stack JavaScript) jobs
+entered and approved by recruiters and hiring managers.
