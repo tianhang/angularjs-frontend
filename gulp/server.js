@@ -8,6 +8,7 @@ var serveStatic = require('serve-static');
 
 gulp.task('server', function () {
     var app = connect();
+    var port = process.env.PORT || 8000;
 
     app.use(livereload());
     app.use(prism.middleware);
@@ -15,9 +16,9 @@ gulp.task('server', function () {
 
     http
         .createServer(app)
-        .listen(8000)
+        .listen(port)
         .on('listening', function () {
-            console.log('Connect server listening on http://localhost:8000');
+            console.log('Connect server listening on http://localhost:' + port);
         });
 
     refresh.listen();

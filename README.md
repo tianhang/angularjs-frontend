@@ -17,8 +17,17 @@ Getting Started
 * `bower install`
 * `npm install -g gulp`
 * `gulp server`
-* navigate to http://localhost:8000
+* navigate to `http://localhost:8000`
 
+Cloud 9
+-------
+
+For those using the Cloud 9 IDE:
+instead of navigating to `http://localhost:8000` to view the application,
+click Preview (in the top menu bar next to Run) then Preview with Web Server.
+You should see a mock browser running in your IDE with the application loaded.
+The url shown in the address bar is public, so you can open it in another tab
+or share it with your friends!
 
 Testing
 =======
