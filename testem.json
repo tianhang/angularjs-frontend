@@ -1,0 +1,13 @@
+{
+    "framework": "mocha",
+    "src_files": [
+        "app/bower_components/angular/angular.js",
+        "app/bower_components/angular-mocks/angular-mocks.js",
+        "node_modules/chai/chai.js",
+        "node_modules/sinon-chai/lib/sinon-chai.js",
+        "node_modules/sinon/pkg/sinon.js",
+        "test/testemHelper.js",
+        "app/src/app.js",
+        "app/src/**/*.js"
+    ]
+}

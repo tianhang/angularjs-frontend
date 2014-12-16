@@ -26,11 +26,15 @@ Testing
 Unit
 ----
 
-For TDD
-`gulp test`
+If you do not have Test'em installed yet, run
+`npm install testem -g`
 
-To run the tests once
-`gulp test:single`
+Execute the tests using 
+`testem`
+and navigating to `http://localhost:7357/` (as prompted by the console output).
+
+If you are using the c9.io IDE, you need to specify the host and port 
+`testem --host $IP -p $IP`
 
 End-to-end
 ----------
