@@ -1,0 +1,19 @@
+<!--
+    This is an example of a page (aka a view), and is most
+    often just going to be a holding place that will contain components.
+
+    For the time being, we'll just use ng-include to get a component
+    into the page, but down the road we'll probably switch over
+    to making the components into directives, just to keep things neater.
+-->
+
+    <div ng-controller="examplePageController" class="container-fluid">
+
+        <!-- how to include a component -->
+        <div ng-include="../components/exampleTemplate/exampleTemplate.html"></div>
+
+        <!-- how to include a directive -->
+        <div example-directive example="someValue"></div>
+
+    </div>
+
