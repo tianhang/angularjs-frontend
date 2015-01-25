@@ -1,0 +1,26 @@
+<!--
+    an example of how a bunch of information might be passled out into several ng-repeats
+    this is basically the empty template that gets dropped into a page when you call a directive
+    see page/examplePage/examplePage.html for a place where that's happening
+-->
+
+<h3>Directive forExample</h3>
+<tabset type="pills" justified="true">
+    <tab heading="Items"  ng-show="items">
+        <p ng-repeat="item in items">
+            {{item.name}}
+        </p>
+    </tab>
+    <tab heading="Things" ng-show="things" >
+        <div ng-repeat="thing in things">
+            <p><strong>{{thing.title}}</strong></p>
+            <p>{{thing.description}}</p>
+        </div>
+    </tab>
+    <tab heading="Pieces"  ng-show="pieces" >
+        <div ng-repeat="piece in pieces">
+            <p><strong>{{piece.title}}</strong></p>
+            <p>{{piece.description}}</p>
+        </div>
+    </tab>
+</tabset>

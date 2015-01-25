@@ -1,0 +1,17 @@
+<!-- here's a little template for setting up a component -->
+
+<div class="row" ng-controller="exampleComponentController">
+    <div class="col-md-2">
+       <span class="icon icon-{{item.icon}} color-{{item.color}}"></span>
+    </div>
+    <div class="col-md-10">
+        <h3>{{item.title}}</h3>
+        <p>{{item.descrip}}</p>
+        <div ng-repeat="tag in item.tags">
+            <span class="tag">{{tag.name}}</span>
+        </div>
+    </div>
+    <div class="col-md-1 col-sm-2 col-xs-2">
+        <p><a href="{{item.url}}" target="_new">{{item.alt}}</a></p>
+    </div>
+</div>
