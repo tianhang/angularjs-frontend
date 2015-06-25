@@ -17,5 +17,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/austin-pair-programming/the-mean-exchange"
-  }
+  },
+  "license": "GPL V3"
 }

@@ -45,3 +45,11 @@ To run the tests
 `./node_modules/.bin/protractor test/protractor.conf.js`
 
 Note: you must have a development server (`gulp server`) running at the same time for the e2e tests to work.
+
+Pushing Content Upstream
+------------------------
+git remote add realorigin https://github.com/austin-pair-programming/angularjs-frontend.git
+
+If you receive a message that it is already set, but to a different project, you can use:
+
+git remote set-url https://github.com/austin-pair-programming/angularjs-frontend.git
