@@ -6,6 +6,7 @@ Getting Started
 * `npm install`
 * `bower install`
 * `npm install -g gulp`
+* `npm update`
 * `gulp server`
 * navigate to `http://localhost:8000`
 
